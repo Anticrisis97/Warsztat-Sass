@@ -1,0 +1,59 @@
+@import "../mobile/mobilemedia";
+
+.benefits__box {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 220px;
+  //padding-left:;
+  //box-shadow: 0px 0px 24px -20px rgba(66, 68, 90, 1);
+}
+.section__red {
+  display: inline;
+  width: 600px;
+  height: 370px;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+ // border: 1px solid grey;
+  @include mobile {
+    flex-direction: column;
+  }
+}
+.section__red--first {
+  font-family: "Railway", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 0;
+  padding-left: 10px;
+}
+.section__img1 {
+  position: absolute;
+  left: 900px;
+  transform: scale(80%);
+}
+.section__text--left {
+  border-bottom: 3.2px solid #FB3B64;
+  width: 370px;
+  height: 50px;
+  padding-left: 10px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+.red__square {
+  width: 8.919rem;
+  height:8.919rem;
+  background-color: #FB3B64;
+  border-radius: 25%;
+  position: absolute;
+  top: 1318px;
+  left: 1127px;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+/* ////////////////////////////////////////////////////////////////////// */
+
