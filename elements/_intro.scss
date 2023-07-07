@@ -1,0 +1,39 @@
+@import "../mobile/mobilemedia";
+
+.intro {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../src/images/Background.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: contain;
+  @include mobile {
+    height: 75vh;
+  }
+
+}
+
+.intro__bg {
+}
+.intro__box {}
+.intro__hdl {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.0625rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  padding-bottom: -1.25rem;
+}
+.intro__lead {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  padding-bottom: 2.1875rem;
+  @include mobile {
+    padding-bottom: 0;
+    font-size: 0.9rem;
+  }
+
+}
